@@ -1,0 +1,111 @@
+body{
+	background: #80BD9E;
+}
+
+a, a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#header-nav {
+	background-color: #F98866;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Helvetica';
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #89DA59;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #80BD9E;
+  font-weight: bold;
+  color: #5A8E46;
+}
+
+.chicken-tile, .beef-tile, .sushi-tile{
+	position: relative;
+	background: #5F934A;
+	height: 700px;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.chicken-tile .title, .beef-tile .title, .sushi-tile .title{
+	text-align: center;
+	font-size: 2em;
+}
+
+.chicken-tile p, .beef-tile p, .sushi-tile p{
+	margin-top: 10px;
+}
+
+.chicken-tile .gototop, .beef-tile .gototop, .sushi-tile .gototop {
+  position: absolute;
+  bottom: 10px;
+  align-content: center;
+  right: 0;
+  width: 80px;
+  color: #ffffff;
+  background-color: #557c3e;
+  text-align: center;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  .chicken-tile, .beef-tile, .sushi-tile{
+	  position: relative;
+	  background: #5F934A;
+	  height: auto;
+  	  min-height: 100% !important;
+	  margin-top: 15px;
+  	  margin-left: 25px;
+	  margin-right: 25px;
+	}
+
+	.chicken-tile .gototop, .beef-tile .gototop, .sushi-tile .gototop {
+	  position: absolute;
+	  bottom: 0;
+	  right: 0;
+	  width: 80px;
+	  background-color: #557c3e;
+	  text-align: center;
+	} 
+}
